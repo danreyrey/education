@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="../../SortingAlgorithms/BubbleSort/BubbleSort.csproj" />
+  <Project Path="../../SortingAlgorithms/SelectionSort/SelectionSort.csproj" />
+</Solution>

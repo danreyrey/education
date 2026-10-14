@@ -1,0 +1,70 @@
+# ==========================================
+# .NET / C# Core Artifacts
+# ==========================================
+# Build outputs
+[Bb]in/
+[Oo]bj/
+
+# NuGet Packages
+*.nuget.dgspec.json
+*.nuget.g.props
+*.nuget.g.targets
+project.lock.json
+project.assets.json
+packages/
+*.nupkg
+*.snupkg
+
+# Test and publish output
+TestResults/
+artifacts/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+
+# ==========================================
+# Operating System (macOS)
+# ==========================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ==========================================
+# IDE - JetBrains Rider
+# ==========================================
+.idea/
+*.sln.iml
+
+# ==========================================
+# IDE - Visual Studio Code (VS Code)
+# ==========================================
+.vscode/
+# Note: Un-comment the line below if you want to keep your launch configurations in Git
+# !.vscode/launch.json
+
+# ==========================================
+# IDE - Visual Studio (Windows/Mac)
+# ==========================================
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+
+# ==========================================
+# Secrets & Environment Variables
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+appsettings.*.json
+!appsettings.*.example.json
